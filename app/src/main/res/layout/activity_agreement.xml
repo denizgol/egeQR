@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- ScrollView Başlangıcı -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Çerezlere Dair Aydınlatma Metni Başlangıcı -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="ÇEREZLERE DAİR AYDINLATMA METNİ"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="ÇEREZLERE DAİR AYDINLATMA METNİ
+
+Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (KVKK) 10’uncu maddesi ile Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ kapsamında veri sorumlusu sıfatıyla [Şirket Adı / Kişi Adı] tarafından hazırlanmıştır.
+
+Bu Çerez Aydınlatma Metni'nin amacı, internet sitemizde kullanılan çerezler aracılığıyla elde edilen kişisel verilerin işlenmesine ilişkin olarak, hangi amaçlarla hangi tür çerezleri kullandığımızı, hukuki sebepleri ve kullanıcı haklarını açıklamaktır.
+
+**Çerezler Nedir?**
+Çerezler, internet sitelerinin kullanıcı deneyimini geliştirmek ve kullanıcılarına özel hizmetler sunmak amacıyla kullanılan küçük metin dosyalarıdır. İnternet sitemizi ziyaret ettiğinizde tarayıcınıza yerleştirilen bu çerezler, cihazınızın tarayıcı geçmişinde saklanır.
+
+**Çerez Kullanım Amaçları**
+İnternet sitemizde yalnızca hizmetin sağlanması için kesinlikle gerekli olan birinci taraf oturum ve kalıcı çerezler kullanılmaktadır. Bu çerezler aşağıdaki amaçlarla kullanılabilir:
+
+- İnternet sayfasında internet sayfasına, sonradan gelen isteklerin güvenilir olup olmadığını anlamak amacıyla.
+- Ziyaretçilerin web sayfasını hangi dilde görüntülediğini tespit edebilmek amacıyla.
+- Çerez aydınlatma metninin okunduğunun teyidi amacıyla.
+
+**Çerez Türleri**
+Kullanım süresine göre çerez türleri:
+- Oturum çerezi: Kullanıcı tarayıcısını kapattığında silinir.
+- Kalıcı çerez: Belirli bir tarihte veya süre sonra kendiliğinden silinir.
+
+Çerez yerleştirme amaçlarına göre çerez türleri:
+- Kesinlikle gerekli çerezler: Hizmetin sağlanabilmesi için kullanılır.
+- İşlevsel çerezler: İnternet sitesinin performansını artırmak ve kullanıcı deneyimini iyileştirmek amacıyla kullanılır.
+- Reklam/Pazarlama çerezleri: Kullanıcıların ilgi alanlarına göre özelleştirilmiş içerik ve reklamlar sunmak amacıyla kullanılır.
+
+**Veri Sorumlusu**
+[Şirket Adı / Kişi Adı]
+[Adres]
+[Telefon Numarası]
+[E-posta Adresi]
+
+**Kişisel Verilerin İşlenme Hukuki Sebepleri**
+Çerezler aracılığıyla kişisel verileriniz işlenirken aşağıdaki hukuki sebeplere dayanılmaktadır:
+- İlgili kişinin açık rızası.
+- İşlemin meşru menfaatlerimize uygun olması.
+
+**Kişisel Veri Güvenliği**
+Kişisel verilerinizi korumak için uygun güvenlik önlemlerini alıyoruz.
+
+**Kişisel Verilere Erişim ve Haklarınız**
+KVKK uyarınca, kişisel verilerinize erişme, düzeltme, silme ve verilerinizin işlenmesine itiraz etme haklarına sahipsiniz. Bu hakları kullanmak için yukarıda belirtilen iletişim bilgilerini kullanabilirsiniz.
+
+**Değişiklikler**
+Bu Çerez Aydınlatma Metni, mevzuat değişiklikleri veya işlem amaçlarımızdaki değişiklikler nedeniyle güncellenebilir. Güncellemeleri takip etmek kullanıcı sorumluluğundadır.
+
+Kişisel verilerinizle ilgili taleplerinizi, [Şirket Adı / Kişi Adı] ile iletişime geçerek iletebilirsiniz.
+" />
+
+            <Button
+                android:id="@+id/acceptButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kabul Et" />
+
+            <!-- Metni burada devam ettirin... -->
+
+            <!-- Çerezlere Dair Aydınlatma Metni Sonu -->
+
+        </LinearLayout>
+    </ScrollView>
+    <!-- ScrollView Sonu -->
+
+</LinearLayout>

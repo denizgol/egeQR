@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+
+            android:title="@string/menu_home" />
+
+
+    </group>
+
+    <item android:title="Poliklinikler">
+        <menu>
+            <item
+                android:id="@+id/bir"
+                android:clickable="true"
+                android:icon="@drawable/braces"
+
+                android:title="AĞIZ, DİŞ VE ÇENE CERRAHİSİ" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/iki"
+        android:icon="@drawable/dental_crown"
+
+        android:title="AĞIZ, DİŞ VE ÇENE RADYOLOJİSİ" />
+
+    <item
+        android:id="@+id/üç"
+        android:icon="@drawable/jaw"
+        android:title="ENDODONTİ" />
+
+    <item
+        android:id="@+id/dört"
+        android:icon="@drawable/jaw__1_"
+        android:title="ORTODONTİ" />
+
+    <item
+        android:id="@+id/beş"
+        android:icon="@drawable/mouth"
+        android:title="PEDODONTİ" />
+
+    <item
+        android:id="@+id/altı"
+        android:icon="@drawable/radiation"
+        android:title="PERİODONTOLOJİ" />
+
+    <item
+        android:id="@+id/yedi"
+        android:icon="@drawable/surgery"
+        android:title="PROTETİK DİŞ TEDAVİSİ" />
+
+    <item
+        android:id="@+id/sekiz"
+        android:icon="@drawable/tooth_whitening"
+        android:title="RESTORATİF DİŞ TEDAVİSİ" />
+
+</menu>
